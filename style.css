@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: white url("img/bg-header.jpg") no-repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#wrap {
+    max-width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+h1, h2, a {
+    text-transform: uppercase;
+}
+
+h2 {
+    font: bold 26px/26px Montserrat;
+    color: #314a5b;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: #9aa0ab;
+    font-size: 15px;
+}
+
+header {
+    height: 1057px;
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    background-color: #fa5c65;
+    color: white;
+    height: 75px;
+    width: 140px;
+    border-radius: 0 0 8px 8px;
+    text-align: center;
+}
+
+#logo>p {
+    margin-top: 43px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Domine, serif;
+    color: white;
+}
+
+#logo>p>span {
+    color: #314a5b;
+}
+
+nav {
+    width: 460px;
+    float: right;
+    margin-top: 28px;
+}
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+    width: 95px;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    font-family: Montserrat, sans-serif;
+    color: #263742;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+nav ul li:last-child a {
+    text-align: right;
+}
+
+nav p a {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav p a:first-child {
+    display: inline-block;
+    margin-left: 30px; 
+}
+
+.slogan {
+    position: absolute;
+    top: 380px;
+    color: #314a5b;
+    width: 510px;
+}
+
+h1 {
+    font: bold 48px/53px Montserrat;
+}
+
+span {
+    color:  #fa5c65;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 40.35px;
+    margin-top: 5px;
+}
+
+button {
+    position: relative;
+    top: 610px;
+    width: 170px;
+    height: 62px;
+    background-color: #fa5c65;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font: bold 15px/48.38px 'Open Sans';
+}
+
+button:hover {
+    background-image: linear-gradient(#fa5c65, #d7333c);
+}
+
+main {
+    margin-top: 85px;
+}
+
+#snippets {
+    display: flex;
+    justify-content: space-between;
+}
+
+#snippets article:first-child {
+    margin-right: 63px;
+}
+
+#snippets article:nth-child(2) {
+    margin-right: 70px;
+}
+
+#snippets article:last-child {
+    margin-right: 0;
+}
+
+article h2+p {
+    margin-top: 24px;
+}
+
+article h2 {
+    color: #465065;
+}
+
+section a {
+    display: block;
+    color: #fa5c65;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    margin-top: 28px;
+    width: 80px;
+    border: 1px solid white;
+}
+
+section a:hover {
+    border: 1px solid #fa5c65;
+    border-radius: 3px;
+}
+
+#portfolio article{
+    float: right;
+    margin-right: 70px;
+    margin-top: 123px;
+    width: 380px;
+}
+
+#portfolio h2 {
+    font-size: 40px;
+}
+
+#portfolio img {
+    margin-top: 55px;
+}
+
+#portfolio h4 {
+    font-size: 16px;
+    color: #314a5b;
+    margin-top: 18px;
+}
+
+#portfolio p {
+    line-height: 22px;
+}
+
+#portfolio p {
+    margin-top: 28px;
+}
+
+#portfolio a {
+    margin-top: 35px;
+}
+
+#team {
+    margin-top: 45px;
+}
+
+#team section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+
+#team>h2 {
+    font-size: 32px;
+}
+
+#team>h2+p {
+    margin-top: 18px;
+    font-size: 16px;
+}
+
+.container {
+    width: 160px;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+
+.container h2 {
+    font-size: 22px;
+}
+
+#team img {
+    position: absolute;
+}
+
+#team h3 {
+    color: #fa5c65;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.container p {
+    margin-top: 13px;
+    font-size: 14px;
+}
+
+#team a {
+    margin: 55px 0 60px;
+    float: right;
+}
+
+footer {
+    clear: both;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #e6eaed;
+}
+
+footer a {
+    display: inline-block;
+    margin: 35px 15px 40px;
+}
+
+.left {
+    display: inline-block;
+}
+
+footer .copywright {
+    float: right;
+    margin-top: 35px;
+    font-size: 13px;
+}
